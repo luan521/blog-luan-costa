@@ -1,0 +1,23 @@
+services:
+  blog:
+    build:
+      context: .
+      args:
+        - GO_VERSION
+        - HUGO_VERSION
+        - NODE_VERSION
+    env_file: .env
+    container_name: blog-luan-costa
+    volumes:
+      - .:/workspace
+      - ~/.claude:/root/.claude        # persist Claude auth & memory across sessions
+      - go-cache:/root/go/pkg/mod      # cache Go modules
+    ports:
+      - "1313:1313"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    stdin_open: true
+    tty: true
+
+volumes:
+  go-cache:
