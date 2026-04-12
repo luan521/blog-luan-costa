@@ -3,7 +3,7 @@ title: Luan Costa
 toc: true
 ---
 
-**Artificial Intelligence; Machine Learning; Machine Learning Engineering; Quantum Computing; Hybrid Quantum Computing; Mathematics; Statistic; Physics.**
+**Artificial Intelligence; Machine Learning; Machine Learning Engineering; Quantum Computing; Hybrid Quantum Computing; Mathematics; Statistics; Physics.**
 
 ## Explore
 
@@ -25,9 +25,8 @@ toc: true
 
 ### Certifications
 
-<img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;"><img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;"><img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;">
-
-<img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;"><img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;"><img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;">
+.
+<img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;">
 
 ### Events
 
