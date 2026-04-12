@@ -13,7 +13,7 @@ toc: true
 
 ## About me
 
-<img src="/images/profile_photo.jpg" alt="Luan Costa" style="float: right; width: 220px; border-radius: 12px; margin: 2rem 0 1.5rem 2rem;">
+<img src="images/profile_photo.jpg" alt="Luan Costa" style="float: right; width: 220px; border-radius: 12px; margin: 2rem 0 1.5rem 2rem;">
 
 **Senior Data Scientist | ML Engineer | MSc Computer Science**
 
@@ -26,7 +26,7 @@ toc: true
 ### Certifications
 
 .
-<img src="/images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;">
+<img src="images/aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning Specialty" style="width: 198px; display: inline; margin: 0;">
 
 ### Events
 
