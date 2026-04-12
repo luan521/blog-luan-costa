@@ -39,5 +39,5 @@ toc: true
 ### Publications
 **Generative QAOA and Its Application to Portfolio Optimization**  
 Luan Costa, Gabriel Coutinho  
-In: Anais do <WECIQ|WCQ>: Workshop-Escola de Computação e Informação Quântica e Workshop de Computação Quântica - UFSC. Anais...Florianópolis(SC) UFSC, 2025.  
+In: Anais do $\langle \text{WECIQ}| \text{WCQ} \rangle$: Workshop-Escola de Computação e Informação Quântica e Workshop de Computação Quântica - UFSC. Anais...Florianópolis(SC) UFSC, 2025.  
 Available at: [Link](https://www.even3.com.br/anais/weciqwcq2025-556747/1262964-generative-qaoa-and-its-application-to-portfolio-optimization/)
