@@ -8,6 +8,8 @@ authors:
 
 ## Introdução
 
+{{< img src="images/scs.png" alt="SCS circuit" style="float: right; width: 220px; border-radius: 12px; margin: 2rem 0 1.5rem 2rem;" >}}
+
 A otimização de portfólio é um problema combinatório clássico: dado um conjunto de ativos, encontrar a alocação que maximiza o retorno esperado para um dado nível de risco. À medida que o número de ativos cresce, o problema se torna computacionalmente intratável para solvers clássicos.
 
 O Quantum Approximate Optimization Algorithm (QAOA) é uma abordagem híbrida quântico-clássica que codifica o problema como um circuito quântico parametrizado. A qualidade da solução depende fortemente de encontrar bons parâmetros de circuito $\boldsymbol{\gamma}$ e $\boldsymbol{\beta}$.
