@@ -1,0 +1,15 @@
+{{- if hugo.IsMultilingual -}}
+<div class="hx:flex hx:items-center hx:justify-center hx:gap-2 hx:mt-4 hx:mb-2 hx:text-xs hx:font-medium hx:tracking-wider">
+  {{- range $i, $lang := site.Languages -}}
+    {{- if gt $i 0 -}}
+    <span class="hx:text-gray-300 hx:dark:text-gray-700 hx:select-none">|</span>
+    {{- end -}}
+    {{- $link := partial "utils/lang-link" (dict "lang" $lang.Lang "context" $) -}}
+    {{- if eq $lang.Lang site.Language.Lang -}}
+      <span class="hx:text-gray-900 hx:dark:text-white hx:font-bold">{{ upper $lang.Lang }}</span>
+    {{- else -}}
+      <a href="{{ $link }}" class="hx:text-gray-400 hx:dark:text-gray-500 hx:hover:text-gray-900 hx:dark:hover:text-gray-100 hx:transition-colors">{{ upper $lang.Lang }}</a>
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}
