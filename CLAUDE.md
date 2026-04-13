@@ -85,14 +85,19 @@ The navbar menu is defined in `hugo.yaml` under `menu.main`. Current items (in o
 
 ## Image Paths in Content
 
-Use **relative paths** (no leading `/`) for images in raw HTML `<img>` tags within Markdown files:
+Always use the `{{< img >}}` shortcode instead of a raw `<img>` tag. It wraps Hugo's `relURL` so paths are resolved correctly at any page depth and for both EN and PT language versions:
 
-```html
-<img src="images/photo.jpg" ...>   ✓ correct
-<img src="/images/photo.jpg" ...>  ✗ breaks on GitHub Pages (subdirectory deployment)
+```
+{{< img src="images/photo.jpg" alt="Description" style="float: right; width: 220px;" >}}
 ```
 
-Hugo does not reprocess absolute paths in raw HTML, so `/images/...` resolves to the domain root instead of the site base URL when deployed to a subdirectory.
+Supported attributes: `src` (required), `alt`, `style`, `class`.
+
+Store images in `static/images/`. Hugo mirrors this directory to `public/images/` **and** `public/pt/images/` at build time (via module mounts in `hugo.yaml`), so both language versions resolve `images/` correctly.
+
+**Do not use raw `<img src="images/...">` in blog posts** — the path is resolved relative to the post's URL (e.g. `/blog/posts/YYYY/MM/slug/images/...`), which does not exist. The shortcode avoids this.
+
+**Do not use leading-slash paths** (`/images/...`) in raw HTML — Hugo does not reprocess them, so they break on GitHub Pages subdirectory deployments.
 
 ## Deployment Targets
 

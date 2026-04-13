@@ -8,6 +8,8 @@ authors:
 
 ## Introduction
 
+{{< img src="images/scs.png" alt="SCS circuit" style="float: right; width: 220px; border-radius: 12px; margin: 2rem 0 1.5rem 2rem;" >}}
+
 Portfolio optimization is a classical combinatorial problem: given a set of assets, find the allocation that maximizes expected return for a given level of risk. As the number of assets grows, the problem becomes computationally intractable for classical solvers.
 
 The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical approach that encodes the problem as a parameterized quantum circuit. The quality of the solution depends heavily on finding good circuit parameters $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$.
