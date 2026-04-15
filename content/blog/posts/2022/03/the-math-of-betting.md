@@ -1,6 +1,6 @@
 ---
 title: "The Math of Betting"
-date: 2026-04-14
+date: 2022-03-31
 description: "Using probability theory and information theory to derive the optimal long-term betting strategy — from the doubling rate and entropy to the injustice factor and Kuhn-Tucker conditions."
 authors:
   - name: Luan Costa

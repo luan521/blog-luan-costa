@@ -1,6 +1,6 @@
 ---
 title: "A Matemática das Apostas"
-date: 2026-04-14
+date: 2022-03-31
 description: "Usando teoria das probabilidades e teoria da informação para derivar a estratégia ótima de apostas a longo prazo — da taxa de duplicação e entropia ao fator de injustiça e condições de Kuhn-Tucker."
 authors:
   - name: Luan Costa
