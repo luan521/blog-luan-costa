@@ -1,1 +1,8 @@
+{{ if .Get "caption" -}}
+<figure{{ with .Get "style" }} style="{{ . }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <img src="{{ relURL (.Get "src") }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
+  <figcaption>{{ .Get "caption" }}</figcaption>
+</figure>
+{{- else -}}
 <img src="{{ relURL (.Get "src") }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}{{ with .Get "style" }} style="{{ . }}"{{ end }}{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+{{- end }}
