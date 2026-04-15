@@ -46,7 +46,9 @@ In a realistic case, the factor $F = 1/o_1 + 1/o_2 + 1/o_3$ of the odds, will al
 - $F = \dfrac{1}{o_1} + \dfrac{1}{o_2} + \dfrac{1}{o_3}$
 
 As you can see, in game1 one has $F=1/2.25+1/3.60+1/2.87=1.07$, and for game2 we have $F=1/1.50+1/3.60+1/5.75=1.12$. Therefore, game2 is more "unfair" to the gambler than game1, this happens because Barcelona and Atlético de Madrid are world-renowned teams, unlike Náutico and Campinense, so game2 moves less money and so the bet365 needs to "make" the game more "unfair".
-A simple case
+
+## A simple case
+
 For simplicity, we will first assume that the gambler distributes all of his wealth across the three possibilities, that is $b_0=0$, which implies $S(X)=o(X)\cdot b(X)$. This will lead us to a simple analytical solution, which will provide us some interesting insights.
 
 **Definition 4:** The doubling rate of the gambler's bankroll is
@@ -161,7 +163,8 @@ Therefore, the optimal strategy for the gambler is not to bet any money if and o
 In the case when $p_i \cdot o_i > 1$ for some $i$, the conditions are no longer satisfied by $b_0 = 1$. The gambler should then invest some money in the match, however, since the denominator of the expressions in conditions 1 and 2 also changes, more than one possible result may now violate the conditions. Hence, the optimal solution may involve investing in some possible result with $p_i \cdot o_i \leq 1$, which is counterintuitive.
 
 There is no analytical form for the solution in this case. The conditions 1, 2 and 3 for this case do not give rise to an explicit solution. Instead, we can formulate an algorithm for finding the optimal strategy.
-The general optimal strategy
+
+## The general optimal strategy
 
 1. Order the possible results, in such a way that $p_1 o_1 \geq p_2 o_2 \geq p_3 o_3$
 

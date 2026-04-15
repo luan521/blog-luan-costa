@@ -160,7 +160,7 @@ No caso em que $p_i \cdot o_i > 1$ para algum $i$, as condições não são mais
 
 Não há forma analítica para a solução neste caso. As condições 1, 2 e 3 não dão origem a uma solução explícita. Em vez disso, podemos formular um algoritmo para encontrar a estratégia ótima.
 
-### A estratégia ótima geral
+## A estratégia ótima geral
 
 1. Ordene os resultados possíveis de forma que $p_1 o_1 \geq p_2 o_2 \geq p_3 o_3$
 
